@@ -25,12 +25,12 @@
 
     <div class="d-flex justify-content-between text-muted border-bottom pb-2 mb-4 fs-6">
         <div>
-            <span class="me-3">작성자: **<%= author %>**</span>
-            <span class="me-3">카테고리: <span class="badge bg-secondary"><%= category %></span></span>
+            <span class="me-3">👤 작성자: **<%= author %>**</span>
+            <span class="me-3">📂 카테고리: <span class="badge bg-secondary"><%= category %></span></span>
         </div>
         <div>
-            <span class="me-3">작성일: <%= date %></span>
-            <span>조회수: <%= views %></span>
+            <span class="me-3">📅 작성일: <%= date %></span>
+            <span>👁️ 조회수: <%= views %></span>
         </div>
     </div>
 
