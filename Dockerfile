@@ -1,6 +1,6 @@
 ## 1단계: 빌드 스테이지 (BUILDER)
-# 올바른 Maven 이미지를 사용합니다.
-FROM maven:3.8.6-jdk-17 AS builder
+# 올바르고 일반적인 Maven/JDK 17 태그를 사용합니다.
+FROM maven:3-jdk-17 AS builder
 
 # 작업 디렉토리를 설정합니다.
 WORKDIR /app
